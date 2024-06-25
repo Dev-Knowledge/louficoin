@@ -6,7 +6,7 @@ function About() {
   return (
     <section
       id="about"
-      className="md:relative flex flex-col h-[1000px] md:px-0 px-5 py-10 md:h-[700px] overflow-hidden lg:max-w-4xl xl:max-w-6xl md:max-w-2xl max-w-[400px] mx-auto text-white "
+      className="relative flex flex-col h-[1000px] md:px-0 px-5 py-10 md:h-[700px] overflow-hidden lg:max-w-4xl xl:max-w-6xl md:max-w-2xl max-w-[400px] mx-auto text-white "
     >
       <h2
         data-aos="zoom-in"

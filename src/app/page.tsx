@@ -9,7 +9,7 @@ import TokenOmics from "./components/TokenOmics";
 
 export default function Home() {
   return (
-    <main className="bg-black lg:max-w-4xl xl:max-w-6xl md:max-w-2xl max-w-[400px] mx-auto ">
+    <main className="bg-black lg:max-w-4xl xl:max-w-6xl  mx-auto ">
       <Header />
       <HeroSection />
       <Partners />
