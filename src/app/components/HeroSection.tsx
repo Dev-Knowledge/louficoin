@@ -6,13 +6,13 @@ function HeroSection() {
   return (
     <section
       id="home"
-      className="h-[520px] lg:h-[600px] xl:h-[610px] lg:max-w-4xl xl:max-w-6xl md:max-w-2xl mx-auto overflow-hidden text-white "
+      className="h-[550px] lg:h-[600px] xl:h-[610px] lg:max-w-4xl xl:max-w-6xl md:max-w-2xl mx-auto overflow-hidden text-white "
     >
       <div className="relative flex items-center justify-start ">
-        <div className="bg-gradient-to-t from-[#0f0f0f] py-36 -bottom-7 lg:-bottom-[110px] absolute w-full"></div>
+        <div className="bg-gradient-to-t from-[#0f0f0f] py-36 -bottom-14 lg:-bottom-[110px] absolute w-full"></div>
         <p
           data-aos="zoom-in"
-          className={`${lilita.className} tracking-widest  text-[#FB8F3C] text-center text-[100px] md:text-[200px] lg:text-[250px] xl:text-[300px] h-[500px] md:leading-[180px] lg:leading-[250px] `}
+          className={`${lilita.className} tracking-widest w-full text-[#FB8F3C] text-center text-[110px] md:text-[200px] lg:text-[250px] xl:text-[300px] h-[500px] md:leading-[180px] lg:leading-[250px] `}
         >
           LOUFI COIN
         </p>
@@ -41,7 +41,7 @@ function HeroSection() {
       />
       <Image
         data-aos="fade-right"
-        className="absolute z-0 top-10 left-[60px] md:left-[240px]  lg:hidden block"
+        className="absolute z-0 top-10 left-[45px] md:left-[240px]  lg:hidden block"
         src="/images/hero.png"
         alt="logo"
         width={300}
@@ -49,7 +49,7 @@ function HeroSection() {
       />
       <p
         data-aos="fade-down"
-        className={`absolute  lg:top-[550px] top-[520px] right-12 md:right-56 lg:right-36 text-center text-[11px] lg:text-[12px] xl:text-[16px] max-w-[480px] z-50`}
+        className={`md:absolute lg:top-[550px] top-[520px] right-12 md:right-56 lg:right-36 text-center text-[11px] lg:text-[12px] xl:text-[16px] max-w-[480px] z-50`}
       >
         Loufi Coin Unlocks The Incredible Loufi Capability With Ai. <br /> Loufi
         Coin Is 1000x Smarter Than The Original Coin Empowred.
