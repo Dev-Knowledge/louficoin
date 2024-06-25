@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <section
       id="home"
-      className="h-screen lg:h-[600px] xl:h-[610px] lg:max-w-4xl xl:max-w-6xl md:max-w-2xl mx-auto overflow-hidden text-white "
+      className="h-[520px] lg:h-[600px] xl:h-[610px] lg:max-w-4xl xl:max-w-6xl md:max-w-2xl mx-auto overflow-hidden text-white "
     >
       <div className="relative flex items-center justify-start ">
         <div className="bg-gradient-to-t from-[#0f0f0f] py-36 -bottom-7 lg:-bottom-[110px] absolute w-full"></div>
