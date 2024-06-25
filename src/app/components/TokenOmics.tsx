@@ -6,7 +6,7 @@ function TokenOmics() {
   return (
     <section
       id="tokenomics"
-      className="relative h-[1500px] lg:h-[800px] xl:h-[700px] py-10 lg:max-w-4xl xl:max-w-6xl md:max-w-2xl max-w-[400px] mx-auto  text-white "
+      className="relative overflow-hidden h-[1500px] lg:h-[800px] xl:h-[700px] py-10 lg:max-w-4xl xl:max-w-6xl md:max-w-2xl  mx-auto  text-white "
     >
       <h2
         data-aos="zoom-in"

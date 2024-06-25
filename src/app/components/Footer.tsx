@@ -3,7 +3,7 @@ import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="h-[350px] overflow-hidden text-center py-5 md:py-10 2xl:py-12 bg-black">
+    <footer className="h-[500px] overflow-hidden text-center py-5 md:py-10 2xl:py-12 bg-black">
       <div className="container">
         <div className="row justify-between items-center gap-y-4 -mx-3">
           <div className="w-full text-center px-3 relative before:absolute before:w-[289px] before:bottom-0 before:left-1/2 before:-translate-x-1/2 pb-5 before:h-px before:bg-[linear-gradient(to_right,#d87400_-2%,#f89955_47%,#aa4700_100%),linear-gradient(to_bottom,#fff,#fff)]">

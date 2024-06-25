@@ -5,7 +5,7 @@ function RoadMap() {
   return (
     <section
       id="roadmap"
-      className="lg:h-[800px] h-[1800px] lg:max-w-4xl xl:max-w-6xl md:max-w-2xl max-w-[400px] mx-auto py-10 text-white lg:flex flex-col items-center "
+      className="lg:h-[800px] h-[1800px] lg:max-w-4xl xl:max-w-6xl md:max-w-2xl  mx-auto py-10 text-white lg:flex flex-col items-center "
     >
       <h2
         data-aos="zoom-in"

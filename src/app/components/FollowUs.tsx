@@ -8,7 +8,7 @@ function FollowUs() {
   return (
     <section
       id="followus"
-      className=" lg:h-[800px] md:h-[500px] h-[900px] lg:max-w-4xl xl:max-w-6xl md:max-w-2xl max-w-[400px] mx-auto flex md:flex-row flex-col justify-center items-center gap-5 lg:gap-10 text-white "
+      className=" lg:h-[800px] md:h-[500px] h-[900px] lg:max-w-4xl xl:max-w-6xl md:max-w-2xl  mx-auto flex md:flex-row flex-col justify-center items-center gap-5 lg:gap-10 text-white "
     >
       <Image
         data-aos="fade-right"

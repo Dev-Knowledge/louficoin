@@ -25,8 +25,8 @@ function Humberger() {
       <nav
         className={
           Isopen
-            ? "lg:max-w-4xl xl:max-w-6xl md:max-w-2xl max-w-[400px] mx-auto block z-20 absolute top-0 left-0 px-5 shadow-lg shadow-orange-500 rounded-xl  bg-black  py-5 w-full opacity-100 translate-y-0 transition-all ease-in-out duration-500"
-            : `lg:max-w-4xl xl:max-w-6xl md:max-w-2xl max-w-[400px] mx-auto absolute z-20 opacity-0 -translate-y-full transition-all ease-in-out duration-500 w-full top-2 left-0 bg-black px-5 py-5`
+            ? "lg:max-w-4xl xl:max-w-6xl md:max-w-2xl  mx-auto block z-20 absolute top-0 left-0 px-5 shadow-lg shadow-orange-500 rounded-xl  bg-black  py-5 w-full opacity-100 translate-y-0 transition-all ease-in-out duration-500"
+            : `lg:max-w-4xl xl:max-w-6xl md:max-w-2xl  mx-auto absolute z-20 opacity-0 -translate-y-full transition-all ease-in-out duration-500 w-full top-2 left-0 bg-black px-5 py-5`
         }
       >
         <ul className="flex flex-col justify-center items-start gap-5 text-lg py-10">
