@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-linear-bg {
+  background-image: linear-gradient(to bottom, #ff7a00 0%, #a00 100%);
+}
+
+.group.active .group-\[\&\.active\]\:fill-primary {
+  fill: #ff7a00;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
