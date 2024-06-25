@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <section
       id="home"
-      className="h-screen lg:h-[600px] xl:h-[610px] lg:max-w-4xl xl:max-w-6xl md:max-w-2xl mx-auto  text-white "
+      className="h-screen lg:h-[600px] xl:h-[610px] lg:max-w-4xl xl:max-w-6xl md:max-w-2xl mx-auto overflow-hidden text-white "
     >
       <div className="relative flex items-center justify-start ">
         <div className="bg-gradient-to-t from-[#0f0f0f] py-36 -bottom-7 lg:-bottom-[110px] absolute w-full"></div>
@@ -48,7 +48,7 @@ function HeroSection() {
         height={200}
       />
       <p
-        data-aos="fade-left"
+        data-aos="fade-down"
         className={`absolute  lg:top-[550px] top-[520px] right-12 md:right-56 lg:right-36 text-center text-[11px] lg:text-[12px] xl:text-[16px] max-w-[480px] z-50`}
       >
         Loufi Coin Unlocks The Incredible Loufi Capability With Ai. <br /> Loufi
